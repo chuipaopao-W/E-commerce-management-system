@@ -69,23 +69,13 @@ export default {
                 children: 'children'
             },
             rules: {
-                roleName: [{
+                cat_name: [{
                         required: true,
                         message: "请输入分类名称",
                         trigger: "blur",
                     },
                     {
                         message: "长度最好在 3 到 10 个字符",
-                        trigger: "blur",
-                    },
-                ],
-                roleDesc: [{
-                        required: true,
-                        message: "请输入父级描述",
-                        trigger: "blur",
-                    },
-                    {
-                        message: "最好描述的详细一点",
                         trigger: "blur",
                     },
                 ],
