@@ -368,7 +368,8 @@ export default {
         setRoleDialogClosed() {
             this.selectedRoleId = ''
             this.userInfo = {}
-        }
+        },
+
     },
 };
 </script>

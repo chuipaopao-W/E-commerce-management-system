@@ -3,7 +3,7 @@ import { Button } from 'element-ui'
 import { Form, FormItem } from 'element-ui'
 import { Input } from 'element-ui'
 import { Message } from 'element-ui'
-import { Container,Select,Option,Tag,Tree, Header, Aside, Main, Menu, Submenu, MenuItemGroup, MenuItem, Breadcrumb, BreadcrumbItem, Card, Row, Col, Table, TableColumn, Switch ,Tooltip, Pagination, Dialog} from 'element-ui'
+import { Container, Cascader, Select,Option,Tag,Tree, Header, Aside, Main, Menu, Submenu, MenuItemGroup, MenuItem, Breadcrumb, BreadcrumbItem, Card, Row, Col, Table, TableColumn, Switch ,Tooltip, Pagination, Dialog} from 'element-ui'
 import { MessageBox } from 'element-ui';
 Vue.use(Button)
 Vue.use(Form)
@@ -32,6 +32,7 @@ Vue.use(Tag)
 Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
+Vue.use(Cascader)
 
 
 
