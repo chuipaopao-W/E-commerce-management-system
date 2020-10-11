@@ -4,7 +4,9 @@ import { Form, FormItem } from 'element-ui'
 import { Input } from 'element-ui'
 import { Message } from 'element-ui'
 import { Container,Tabs,TabPane, Cascader,Alert, Select,Option,Tag,Tree, Header, Aside, Main, Menu, Submenu, MenuItemGroup, MenuItem, Breadcrumb, BreadcrumbItem, Card, Row, Col, Table, TableColumn, Switch ,Tooltip, Pagination, Dialog} from 'element-ui'
-import { MessageBox } from 'element-ui';
+import { MessageBox,Timeline,TimelineItem } from 'element-ui';
+// import Timeline from './timeline/index.js'
+// import TimelineItem from './timeline-item/index.js'
 Vue.use(Button)
 Vue.use(Form)
 Vue.use(FormItem)
@@ -36,7 +38,8 @@ Vue.use(Cascader)
 Vue.use(Alert)
 Vue.use(Tabs)
 Vue.use(TabPane)
-
+Vue.use(Timeline)
+Vue.use(TimelineItem)
 
 
 
